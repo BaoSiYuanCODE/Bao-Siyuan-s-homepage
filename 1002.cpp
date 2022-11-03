@@ -1,16 +1,1 @@
-#include<bits/stdc++.h>
-using namespace std;
-int main(){
-	for(int i=10;i<=99;i++){
-		int a=i,m=0,cnt=10;
-		while(a){
-			m=m+(a%10)*cnt;
-			a/=10;
-			cnt/=10;
-		}
-		if((m-i)==36){
-			cout<<i<<endl;
-		}
-	}
-    return 0;
-}
+m5mv955995v595mv95vm9v99959m9599mvvm95m595599v9m9vmvm5vv9vmv9v9m959m95mvm55vm55vm5v5955mmvv5mmv9mm559v999vmv955995v5959vm5mm95v595m995v995999vmv9vmm95m995mv9599m5mm9vmv9v9m959mmv5vmmv9mm55955995v59v9mm5mm95v995m9955995v5m55mm5599v5vmmv9mm55mm59959595vv9vm5m55m955995v59v9mm5mm9559mvv9mvm9mvmmmv5v9559mvvmmvv9mv59mv59mv5v9559m55vm55vm5599v5vmmv9mm55mm59mm59955995v59v9mm5mm95m9mvv99559m5vm95v9mvv9mvmmm5vm95mv95v59v9mmvv9mvm9mvmmmv5vmmv9mm55mm59mm599v9v955m955995vm9599m55m95m9m5599v5vmmv9mm55mm59mm59mm5995v9mvv995v9m55vm55m95m9m599mvm9mvmmm559m55595mv95v59v9mmv5vmmv9mm55mm59mm59mm5995m9m5vvmvv9mvm9mvmmmv5vmmv9mm55mm59mm59mm5995mv95v59v9mm5vvmvv9mvm9mvmmmv5vmmv9mm55mm59mm599vv9mmv9mm55mm59mm5995599595m55mm55m95v9m5v99559m559mvv9mvv9mvmvmv95m5599v5vmmv9mm55mm59mm59mm5995mv95vv9v999v9mmvvmmvvm9559mvvmmvvm959995v5959m95vmmv5vmmv9mm55mm59mm599vv9mmv9mm55mm599vv9mmv9mm55m5mmm5mmm5mmm5mm9vm595999v9m9v999vm595v5m5mmmvmmmv5vmmv9mm559vv9mmv9mm55
